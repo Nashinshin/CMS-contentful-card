@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.portfolio-title, .portfolio-subtitle{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-subtitle{
+    font-size: 24px;
+}
+
+@media (min-width: 960px){
+    .results{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.card-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+    border: 2px black solid;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+.card-image{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card-title{
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card-description{
+    margin: 5px;
+}
+
+.card-see-more{
+    display: flex;
+    justify-content: flex-end;
+}
+
